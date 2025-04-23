@@ -1,6 +1,6 @@
 local part = script.Parent
 
-part.Touched:Connect(function(hit)
+part.Touched:Connect(function(hit) -- this is the function to know if the player is hitting anything.
 	local character = hit.Parent
 	if character then
 		local humanoid = character:FindFirstChild("Humanoid")
